@@ -26,9 +26,6 @@ async function RightSidebar ({
     return (
         <section className="custom-scrollbar rightsidebar">
             <div className="flex flex-1 flex-col justify-start">
-                <h3 className="text-heading4-medium text-light-1">Suggested Communites</h3>
-            </div>
-            <div className="flex flex-1 flex-col justify-start">
                 <h3 className="text-heading4-medium text-light-1">Similar Users</h3>
                 <div className='mt-10 flex flex-col gap-9'>
         {result.users.length === 0 ? (

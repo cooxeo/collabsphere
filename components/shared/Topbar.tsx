@@ -8,7 +8,7 @@ function Topbar() {
     <nav className="topbar">
       <Link href="/" className="flex items-center gap-4">
         <p className="text-heading3-bold text-light-1 max-xs:hidden ">
-          CollabSphere
+          Learn Connect
         </p>
       </Link>
 
